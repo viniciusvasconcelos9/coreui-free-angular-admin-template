@@ -18,13 +18,6 @@ export const routes: Routes = [
         data: {
           title: 'Colors'
         }
-      },
-      {
-        path: 'typography',
-        loadComponent: () => import('./typography.component').then(m => m.TypographyComponent),
-        data: {
-          title: 'Typography'
-        }
       }
     ]
   }
